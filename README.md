@@ -9,7 +9,7 @@ CloudMusic
 >>使用requests库 通过音乐id跳转到真实下载地址进行音乐下载 <br>
 >>只能用于未登录用户有权限下载的歌曲 <br>
 >>模块依赖：requests　　BeautifulSoup <br>
->><br>
+>>
 >
 >selenium_to_cloud_music.py　　网易云音乐下载2 <br>
 >
@@ -17,6 +17,7 @@ CloudMusic
 >>只要能够在网页上正常播放的歌曲都可以进行下载 <br>
 >>模块依赖：selenium　　requests <br>
 >>外部依赖：chromedriver.exe <br>
+>>
 >
 bilibili
 >bilibili.py　　bilibili视频下载<br>
@@ -29,9 +30,9 @@ bilibili
 >
 >bilibili_bangumi.py　　bilibili番剧下载<br>
 >
->>原理同上
->>如果视频进行分片传输,则只能获取第一个片段
->>依赖同上
+>>原理同上<br>
+>>如果视频进行分片传输,则只能获取第一个片段<br>
+>>依赖同上<br>
 >>
 >
 >danmaku_download.py　　bilibili番剧弹幕下载
